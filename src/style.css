@@ -1,0 +1,144 @@
+.app {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 700px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #f8f9fd;
+  }
+  .form{
+    width: 300px;
+    height: 250px;
+  }
+  .form1{
+    width: 300px;
+    height: 400px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="submit"] {
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    background: #01d28e;
+    border: 1px solid #01d28e;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background: #6cf0c2;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-form {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .list-container {
+    display: flex;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .title {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+  }
+  #logout{
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(3, 51, 70);
+}
+#logout a{
+     text-decoration: none;
+     display: flex;
+     justify-content: right;
+     color: white;
+
+}
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+#layt{  
+  height: 80px;
+  border: 1px solid black; 
+  background-color: aliceblue;
+  padding: 20px;
+}
+#layt ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7px;
+  list-style: none;
+}
+#layt ul li a{
+   font-size: 25px;
+   color: rgb(9, 9, 117);
+   text-decoration: none;
+   
+}
+
+#out{
+  border-radius: 75px;
+  padding: 20px;
+  color: rgb(33, 28, 132);
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+
+}
+#foot h1{
+  margin-top: 40px;
+  color: rgb(210, 30, 84);
+  font-size: 30px;
+  text-align: center;
+}
+#for{
+  width: 500px;
+  height: 200px;
+  border-radius: 20px;
+  color: rgb(28, 5, 110);
+  font-size: 20px;
+  padding: 10px;
+}
+#for input{
+  font-size: 20px;
+}
+#btn{
+  padding: 10px;
+  color: rgb(3, 3, 105);
+  font-size: 20px;
+}
+#btn:hover
+{
+  cursor: pointer;
+  color: rgb(105, 25, 3);
+}
